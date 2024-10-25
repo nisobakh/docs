@@ -15,25 +15,22 @@
       "to": "#07C983"
     }
   },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "mailto:hi@mintlify.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Resume",
+      "url": "https://mintlify.com/docs"
     }
   ],
+  "primaryTab": {
+    "name": "Home"
+  },
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Email",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
@@ -50,15 +47,15 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "About Me",
       "pages": [
-        "introduction",
+        "education",
         "quickstart",
         "development"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Projects",
       "pages": [
         "essentials/markdown",
         "essentials/code",
